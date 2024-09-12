@@ -6,7 +6,7 @@
     border: none;
     outline: none;
     scroll-behavior: smooth;
-    font-family: "Poppins";
+    font-family: "gilroy";
 }
 :root{
     --bg-color:#000000;
@@ -23,8 +23,7 @@ body{
     width: 100%;
     top: 0;
     left: 0;
-    bottom: 36.5rem;
-    padding: 4rem 12%;
+    padding: 1.5rem 8%;
     background: rgba(61, 58, 58, 0.3);
     backdrop-filter: blur(10px);
     display: flex;
@@ -38,7 +37,7 @@ body{
     display: none;
 }
 .logo{
-    font-size: 3rem;
+    font-size: 1.5rem;
     color: var(--text-color);
     font-weight: 800;
     cursor: pointer;
@@ -54,7 +53,7 @@ span{
     color: var(--main-color);
 }
 .navbar a{
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--text-color);
     margin-left: 2rem;
     font-weight: 500;
@@ -164,6 +163,7 @@ section{
     border-radius: 50%;
     box-shadow: 0 0 25px var(--main-color);
     transition: 0.4s ease-in-out;
+    display: block;
 
 }
 .about-img img:hover{
@@ -182,10 +182,12 @@ section{
     margin: 3rem 0;
 }
 ::-webkit-scrollbar{
-    width: 20px;
+    width: 10px;
+    
 }
 ::-webkit-scrollbar-thumb{
     background-color: var(--main-color);
+    border-radius: 50px;
 }
 ::-webkit-scrollbar-track{
     background-color: var(--second-bg-color);
